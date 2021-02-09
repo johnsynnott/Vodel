@@ -1,0 +1,13 @@
+{
+    "reddit": {
+        "username": "reddit username to post under",
+        "password": "password for reddit account",
+        "subreddit": "the subreddit to post to",
+        "client_id": "the reddit bot client id",
+        "client_secret": "the reddit bot client secret",
+        "user_agent": "vodler"
+    },
+    "youtube": {
+        "channel_url": "the full url of the youtube channel to check"
+    }
+}
