@@ -102,5 +102,5 @@ class Vodel:
 
 if __name__ == '__main__':
     from sys import argv
-    vodel = Vodel(argv[1] if len(argv) >= 2 else 'config.json')
+    vodel = Vodel(argv[-1] if len(argv) >= 2 else 'config.json')
     vodel.post_live_streams()
